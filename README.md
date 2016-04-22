@@ -1,5 +1,5 @@
 # Home Security mobile project 
-This project was build for Netvision 2016 conference as exaple of AWS IoT Shadow usage in Adroid application 
+This project was build for Netvision 2016 conference as exaple of AWS IoT Shadow usage in Adroid application. This application working with the https://github.com/3mdeb/aws-iot-mqtt-pubsub embedded project
 
 ## Initial setup
 Please modify the GetShadowTask.java and UpdateShadowTask.java files with your Amazon endpoint prefix
@@ -20,3 +20,4 @@ Go to Amazon IAM and modify the unauthorized cognito role policy by adding these
 
   "iot:GetThingShadow",
   "iot:UpdateThingShadow"
+
