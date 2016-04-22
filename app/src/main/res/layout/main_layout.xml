@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<data>
+        <variable name="devicestatus" type="co.kleder.homesecurity.IotSnapshot"/>
+        <variable name="user" type="co.kleder.homesecurity.IotSnapshot" />
+    </data>-->
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:grid="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        >
+
+        <android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            app:columnCount="4">
+            <TextView
+                android:text="@string/title_window"
+                app:layout_column="0"
+                app:layout_gravity="fill"
+                app:layout_columnSpan="3"
+                android:padding="10dip"
+                />
+            <TextView
+                android:id="@+id/title_window_status_xyzasd"
+                android:text="@string/refreshing_text"
+                app:layout_gravity="end"
+                app:layout_column="3"
+                app:layout_columnSpan="1"
+                android:padding="10dip"
+                />
+            <TextView
+                android:text="@string/system_status_label"
+                app:layout_column="0"
+                app:layout_columnSpan="3"
+
+                android:padding="10dip"
+                />
+            <TextView
+                android:id="@+id/title_lock_status"
+                android:text="@string/refreshing_text"
+                app:layout_column="3"
+                app:layout_gravity="end"
+                app:layout_columnSpan="1"
+                android:padding="10dip"
+                />
+            <TextView
+                android:text="@string/alarm_state_label"
+                app:layout_column="0"
+                app:layout_columnSpan="3"
+                android:padding="10dip"
+                />
+            <TextView
+                android:id="@+id/title_alarm_status"
+                android:text="@string/refreshing_text"
+                app:layout_gravity="end"
+                app:layout_column="3"
+                app:layout_columnSpan="1"
+                android:padding="10dip"
+                />
+            <Button
+                android:text="@string/lock_button_label"
+                android:id="@+id/lock_button"
+                app:layout_column="0"
+                app:layout_columnSpan="4"
+                app:layout_gravity="fill_horizontal"
+                android:onClick="lock"/>
+
+            <Button
+                android:text="@string/alarm_button_label"
+                android:id="@+id/reset_button"
+                app:layout_column="0"
+                app:layout_columnSpan="4"
+                app:layout_gravity="fill_horizontal"
+                android:onClick="resetAlarm"/>
+
+            <Button
+                android:text="@string/title_settings"
+                app:layout_gravity="fill_horizontal"
+                app:layout_column="0"
+                app:layout_columnSpan="4"
+                android:onClick="openSetting"/>
+
+
+        </android.support.v7.widget.GridLayout>
+    </ScrollView>
+</FrameLayout>
+</layout>

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_window">Window status</string>
+    <string name="pref_description_window">On is Open, Off window closed</string>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>1 second</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_main_page">Home Security</string>
+
+    <string name="title_window">Window</string>
+    <string name="title_reload">Reload</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="title_activity_fullscreen">Alarm is ON</string>
+    <string name="alarm_actitity_button_text">Turn off</string>
+    <string name="alarm_activity_content">Home Security\nAlert!</string>
+    <string name="alarm_state_label">Alarm is</string>
+    <string name="system_status_label">System status is</string>
+    <string name="refreshing_text">refreshing...</string>
+    <string name="lock_button_label">Arm / disarm </string>
+    <string name="alarm_button_label">Turn OFF alarm</string>
+</resources>
