@@ -26,3 +26,6 @@ Go to Amazon IAM and modify the unauthorized cognito role policy by adding these
 
 This project is prepared in Android Studio 2.0 please open it from Android Studio and compile
 
+## Credits
+
+This example project is made by http://kleder.co company
