@@ -1,6 +1,8 @@
 # Home Security mobile project 
 This project was build for Netvision 2016 conference as exaple of AWS IoT Shadow usage in Android application. This application working with the https://github.com/3mdeb/aws-iot-mqtt-pubsub embedded project
 
+This project was described on this presenatation http://www.slideshare.net/rafalkorszun/how-to-build-iot-solution-using-cloud-infrastructure-61282284 
+
 ## Before you start
 ### Initial setup
 Please modify the GetShadowTask.java and UpdateShadowTask.java files with your Amazon endpoint prefix
