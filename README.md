@@ -3,7 +3,7 @@ This project was build for Netvision 2016 conference as exaple of AWS IoT Shadow
 
 How this project work is described here  http://www.slideshare.net/rafalkorszun/how-to-build-iot-solution-using-cloud-infrastructure-61282284 
 
-Video with Live Example (polish audio only) [Youtube]https://www.youtube.com/watch?v=owz4kcwXahE
+Video with Live Example (polish audio only) https://www.youtube.com/watch?v=owz4kcwXahE
 
 ## Before you start
 ### Initial setup
